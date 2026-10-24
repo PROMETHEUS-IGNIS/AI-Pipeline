@@ -5,7 +5,7 @@ Memoria del proyecto entre sesiones. Máximo ~50 líneas: resume o elimina lo qu
 - MVP (F0–F4 del roadmap) completado y ejecutado end-to-end: descarga FIRMS SP →
   limpieza → esquema unificado → modelos honestos → reporte en `outputs/reporte_modelo.md`
   y matrices de confusión PNG en `outputs/`.
-- Datos reales descargados (post-limpieza): VIIRS SNPP 2025 ≈ 47k, VIIRS NOAA-20 2024
+- Datos reales descargados (post-limpieza): VIIRS SNPP 2025 ≈ 235k, VIIRS NOAA-20 2024
   ≈ 608k, MODIS 2025 ≈ 52k registros. `data/processed/dataset_unificado.csv` (~140 MB).
 - Resultados: `nivel_impacto` CV acc 0.946 vs baseline 0.826 (recall 0.90 en la clase
   minoritaria); cross-sensor NOAA-20 0.94 / MODIS 0.70. `confianza_deteccion` CV 0.868
